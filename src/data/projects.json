@@ -1,0 +1,21 @@
+[
+  {
+    "id": "project-1",
+    "title": "Team Hub",
+    "description": "Empower Your Team with Smart Attendance Tracking and Seamless Communication.",
+    "tech": ["React.js", "Express.js", "Node.js", "Next.js", "TypeScript", "MongoDB"],
+    "image": "/Team_Hub.png",
+    "github": "https://github.com",
+    "live": "https://example.com"
+  },
+  {
+    "id": "project-2",
+    "title": "Closet Bridge",
+    "description": "A smart web platform that bridges donors and NGOs, making clothes donation simple, transparent, and accessible.",
+    "tech": ["React.js", "Node.js", "Express.js", "MongoDB", "Python", "TensorFlow.js", "InceptionV3"],
+    "image": "/closet_bridge.png",
+    "github": "https://github.com",
+    "live": "https://example.com"
+  }
+  
+]
