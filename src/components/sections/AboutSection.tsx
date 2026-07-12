@@ -40,7 +40,7 @@ export default function AboutSection() {
             </span>
           </h2>
           <p className="text-zinc-400 text-lg leading-relaxed mb-12">
-            I&apos;m a full-stack developer with 5+ years of experience building
+            I&apos;m a full-stack developer with 2+ years of experience building
             modern web applications. I specialize in creating performant,
             scalable solutions with beautiful user interfaces. When I&apos;m not
             coding, you&apos;ll find me exploring new technologies or
