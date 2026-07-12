@@ -1,8 +1,7 @@
 # 🚀 Soumojit Paul | Personal Portfolio
 
 > A high-performance portfolio by Soumojit Paul, a Full Stack Developer specializing in immersive web experiences, complex system architecture, and interactive 3D visualizations.
-
-![Portfolio Preview](public/Team_Hub.png) <!-- Update this path with a full screenshot of your hero section later -->
+<!-- Update this path with a full screenshot of your hero section later -->
 
 Welcome to the repository for my personal portfolio. This project serves as a live demonstration of my ability to merge clean, modular software architecture with high-end frontend performance and WebGL rendering.
 
@@ -50,5 +49,5 @@ Want to run this project locally to explore the 3D components and modular struct
 
 **1. Clone the repository**
 ```bash
-git clone [https://github.com/yourusername/portfolio.git](https://github.com/yourusername/portfolio.git)
+git clone [https://github.com/yourusername/portfolio.git](https://github.com/psoumojit40/portfolio.git)
 cd portfolio
