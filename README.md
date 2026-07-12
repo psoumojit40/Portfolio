@@ -51,3 +51,7 @@ Want to run this project locally to explore the 3D components and modular struct
 ```bash
 git clone [https://github.com/yourusername/portfolio.git](https://github.com/psoumojit40/portfolio.git)
 cd portfolio
+
+npm install
+
+npm run dev
