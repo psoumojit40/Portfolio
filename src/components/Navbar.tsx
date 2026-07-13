@@ -60,7 +60,7 @@ export default function Navbar() {
             <li key={item.href}>
               <button
                 onClick={() => scrollTo(item.href)}
-                className={`text-sm tracking-wide transition-colors ${
+                className={`text-sm tracking-wide transition-colors cursor-pointer ${
                   active === item.href.slice(1)
                     ? "text-[#e94560]"
                     : "text-zinc-400 hover:text-white"

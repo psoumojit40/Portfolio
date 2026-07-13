@@ -180,7 +180,7 @@ export default function HeroSection() {
                 .getElementById("projects")
                 ?.scrollIntoView({ behavior: "smooth" })
             }
-            className="px-8 py-3 bg-[#e94560] text-white rounded-full font-medium hover:bg-[#d63851] transition-colors shadow-lg shadow-[#e94560]/20"
+            className="px-8 py-3 bg-[#e94560] text-white rounded-full font-medium hover:bg-[#d63851] transition-colors shadow-lg shadow-[#e94560]/20 cursor-pointer"
           >
             View Projects
           </motion.button>
@@ -206,7 +206,7 @@ export default function HeroSection() {
                 .getElementById("contact")
                 ?.scrollIntoView({ behavior: "smooth" })
             }
-            className="px-8 py-3 border border-zinc-600 text-zinc-300 rounded-full font-medium hover:border-white hover:text-white transition-colors backdrop-blur-sm"
+            className="px-8 py-3 border border-zinc-600 text-zinc-300 rounded-full font-medium hover:border-white hover:text-white transition-colors backdrop-blur-sm cursor-pointer"
           >
             Get In Touch
           </motion.button>

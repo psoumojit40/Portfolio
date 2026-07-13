@@ -112,7 +112,7 @@ export default function ContactSection() {
           <button
             type="submit"
             disabled={status === "sending"}
-            className="w-full py-4 bg-[#e94560] text-white rounded-xl font-medium hover:bg-[#d63851] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full py-4 bg-[#e94560] text-white rounded-xl font-medium hover:bg-[#d63851] transition-colors cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {status === "sending"
               ? "Sending..."
@@ -139,7 +139,7 @@ export default function ContactSection() {
         {/* Back to Top Bar */}
         <button
           onClick={scrollToTop}
-          className="w-full py-4 bg-zinc-900 hover:bg-zinc-800 transition-colors text-zinc-300 text-sm font-medium tracking-wide flex justify-center items-center gap-2"
+          className="w-full py-4 bg-zinc-900 hover:bg-zinc-800 transition-colors text-zinc-300 text-sm font-medium tracking-wide flex justify-center items-center gap-2 cursor-pointer"
         >
           <span>Back to top</span>
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -154,9 +154,9 @@ export default function ContactSection() {
           <div>
             <h3 className="text-white font-semibold mb-6 tracking-wide">Explore</h3>
             <ul className="space-y-4">
-              <li><button onClick={scrollToTop} className="text-zinc-400 hover:text-[#e94560] text-sm transition-colors">Home</button></li>
-              <li><button onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })} className="text-zinc-400 hover:text-[#e94560] text-sm transition-colors">About Me</button></li>
-              <li><button onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })} className="text-zinc-400 hover:text-[#e94560] text-sm transition-colors">Featured Projects</button></li>
+              <li><button onClick={scrollToTop} className="text-zinc-400 hover:text-[#e94560] text-sm transition-colors cursor-pointer">Home</button></li>
+              <li><button onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })} className="text-zinc-400 hover:text-[#e94560] text-sm transition-colors cursor-pointer">About Me</button></li>
+              <li><button onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })} className="text-zinc-400 hover:text-[#e94560] text-sm transition-colors cursor-pointer">Featured Projects</button></li>
             </ul>
           </div>
 
@@ -165,17 +165,17 @@ export default function ContactSection() {
             <h3 className="text-white font-semibold mb-6 tracking-wide">Connect</h3>
             <ul className="space-y-4">
               <li>
-                <a href="https://github.com/psoumojit40" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-[#e94560] text-sm transition-colors flex items-center gap-2">
+                <a href="https://github.com/psoumojit40" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-[#e94560] text-sm transition-colors flex items-center gap-2 cursor-pointer">
                   GitHub
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/soumo09" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-[#e94560] text-sm transition-colors flex items-center gap-2">
+                <a href="https://www.linkedin.com/in/soumo09" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-[#e94560] text-sm transition-colors flex items-center gap-2 cursor-pointer">
                   LinkedIn
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/itzzme_soumo5082" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-[#e94560] text-sm transition-colors flex items-center gap-2">
+                <a href="https://www.instagram.com/itzzme_soumo5082" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-[#e94560] text-sm transition-colors flex items-center gap-2 cursor-pointer">
                   Instagram
                 </a>
               </li>
@@ -202,13 +202,6 @@ export default function ContactSection() {
             </ul>
           </div>
         </div>
-
-        {/* Divider & Centered Name/Logo */}
-        {/* <div className="border-t border-zinc-800/50 py-10 flex justify-center items-center">
-           <span className="text-2xl font-bold tracking-[0.2em] text-transparent bg-clip-text bg-gradient-to-r from-[#e94560] to-[#533483]">
-              SOUMOJIT PAUL
-           </span>
-        </div> */}
 
         {/* Bottom Signature Line */}
         <div className="bg-[#050505] py-6 text-center border-t border-zinc-900">

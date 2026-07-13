@@ -60,7 +60,7 @@ export default function ProjectsSection() {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block"
+                    className="block cursor-pointer"
                   >
                     <ProjectCard3D
                       title={project.title}
