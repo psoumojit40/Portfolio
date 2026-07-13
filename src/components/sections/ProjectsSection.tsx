@@ -41,7 +41,7 @@ export default function ProjectsSection() {
           </p>
         </motion.div>
 
-        <div className="space-y-32">
+        <div className="space-y-32">  
           {spotlightProjects.map((project, i) => {
             const isEven = i % 2 === 0;
             return (
@@ -58,7 +58,6 @@ export default function ProjectsSection() {
                 {/* 3D Visual Side */}
                 <div className="w-full md:w-1/2">
                   <a
-                    href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block"
