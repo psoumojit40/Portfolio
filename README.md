@@ -54,4 +54,11 @@ cd portfolio
 
 npm install
 
+//install three.js
+
+npm install three @react-three/fiber @react-three/drei
+npm install -D @types/three
+
 npm run dev
+```
+* Check it out: https://portfolio-azure-zeta-17.vercel.app/
