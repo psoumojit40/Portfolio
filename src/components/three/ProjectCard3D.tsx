@@ -91,7 +91,7 @@ export default function ProjectCard3D({ imageUrl }: ProjectCard3DProps) {
   const safeImageUrl = imageUrl || "/Team_Hub.png"; 
 
   return (
-    <div className="h-[350px] w-full cursor-pointer relative">
+    <div className="h-[350px] w-full relative">
       <Canvas
         camera={{ position: [0, 0, 4], fov: 45 }}
         dpr={[1, 2]}
@@ -100,7 +100,6 @@ export default function ProjectCard3D({ imageUrl }: ProjectCard3DProps) {
         <ambientLight intensity={1.5} />
         <directionalLight position={[5, 5, 5]} intensity={2} />
         
-        {/* Suspense handles the loading time of the image texture */}
         <Suspense fallback={null}>
           <ImageCard 
             imageUrl={safeImageUrl} 
@@ -109,15 +108,6 @@ export default function ProjectCard3D({ imageUrl }: ProjectCard3DProps) {
           />
         </Suspense>
       </Canvas>
-      
-      {/* "View Live" text overlay */}
-      <div 
-        className={`absolute inset-0 flex items-center justify-center pointer-events-none transition-opacity duration-300 ${hovered ? 'opacity-100' : 'opacity-0'}`}
-      >
-          <span className="bg-[#e94560] text-white px-6 py-2 rounded-full font-medium tracking-wide shadow-lg shadow-black/50">
-              View Live
-          </span>
-      </div>
     </div>
   );
 }
