@@ -61,4 +61,4 @@ npm install -D @types/three
 
 npm run dev
 ```
-* Check it out: https://portfolio-azure-zeta-17.vercel.app/
+* Check it out: https://www.soumojitpaul.me
